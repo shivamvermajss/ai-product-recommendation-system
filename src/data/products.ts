@@ -1,6 +1,7 @@
 import type { Product } from '../types/index.js';
 
 export const PRODUCTS: Product[] = [
+  // --- Smartphones (7 products) ---
   {
     id: 'prod-001',
     name: 'Pixel Nova 8A Smartphone',
@@ -12,78 +13,6 @@ export const PRODUCTS: Product[] = [
     features: ['6.1" OLED 90Hz', '128GB Storage', 'Tensor G3 Chip', 'Titan M2 Security', 'IP67 Water Resistant'],
     image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80',
     badge: 'Under $500 Pick'
-  },
-  {
-    id: 'prod-002',
-    name: 'Apex Ultra 15 Pro Laptop',
-    category: 'Laptops',
-    price: 1499,
-    rating: 4.9,
-    reviewsCount: 512,
-    description: 'High-performance powerhouse engineered for developers and creators. Features M3-class 12-core silicon, 32GB RAM, and 18-hour battery endurance.',
-    features: ['15.3" Liquid Retina', '32GB Unified RAM', '1TB NVMe SSD', '18h Battery Life', 'M3 Pro Architecture'],
-    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80',
-    badge: 'Editor Choice'
-  },
-  {
-    id: 'prod-003',
-    name: 'AeroBook Air 13 Ultraportable',
-    category: 'Laptops',
-    price: 899,
-    rating: 4.7,
-    reviewsCount: 290,
-    description: 'Featherlight 2.7 lb laptop with a fanless silent design, stunning 2.5K edge-to-edge display, and rapid USB-C 65W charging.',
-    features: ['13.6" 2.5K Screen', '16GB RAM', '512GB SSD', 'Fanless Silent Design', 'All-Day Battery'],
-    image: 'https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80',
-    badge: 'Popular'
-  },
-  {
-    id: 'prod-004',
-    name: 'SoundWave ANC-900 Pro Headphones',
-    category: 'Audio',
-    price: 279,
-    rating: 4.8,
-    reviewsCount: 640,
-    description: 'Industry-leading Active Noise Cancellation with dual spatial audio drivers, plush memory foam earcups, and 40 hours of playtime.',
-    features: ['Hybrid Active ANC', '40mm Titanium Drivers', '40hr Battery Life', 'Multipoint Bluetooth 5.3', 'LDAC Hi-Res Audio'],
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80',
-    badge: 'Top Rated'
-  },
-  {
-    id: 'prod-005',
-    name: 'EchoPulse Mini Wireless Earbuds',
-    category: 'Audio',
-    price: 79,
-    rating: 4.4,
-    reviewsCount: 410,
-    description: 'Compact pocket-sized wireless earbuds with crystal-clear call quality, deep bass, IPX5 sweat resistance, and 28-hour total case battery.',
-    features: ['IPX5 Sweatproof', '28h Playback Case', 'Bluetooth 5.3', 'Touch Controls', 'Dual Mic ENC'],
-    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80',
-    badge: 'Budget Friendly'
-  },
-  {
-    id: 'prod-006',
-    name: 'Vanguard Chrono Smartwatch Ultra',
-    category: 'Wearables',
-    price: 249,
-    rating: 4.7,
-    reviewsCount: 315,
-    description: 'Titanium bezel smartwatch with continuous ECG, blood oxygen tracking, dual-band GPS, 50m water resistance, and 7-day battery.',
-    features: ['Sapphire Glass & Titanium', 'Dual-frequency GPS', 'ECG & SpO2 Monitor', '7-Day Battery', '5ATM Waterproof'],
-    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80',
-    badge: 'Fitness Essential'
-  },
-  {
-    id: 'prod-007',
-    name: 'PulseBand Active Fitness Tracker',
-    category: 'Wearables',
-    price: 59,
-    rating: 4.3,
-    reviewsCount: 220,
-    description: 'Sleek, lightweight fitness band with heart rate tracking, sleep cycle analysis, 30+ sport modes, and 14-day battery life.',
-    features: ['1.47" AMOLED Display', 'Heart & Sleep Tracking', '14-Day Battery', 'Swim-proof 50M', '30+ Workout Modes'],
-    image: 'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?auto=format&fit=crop&w=800&q=80',
-    badge: 'Best Value'
   },
   {
     id: 'prod-008',
@@ -110,6 +39,314 @@ export const PRODUCTS: Product[] = [
     badge: 'Under $300'
   },
   {
+    id: 'prod-015',
+    name: 'Lumina Vision 9 Pro Camera Phone',
+    category: 'Smartphones',
+    price: 849,
+    rating: 4.8,
+    reviewsCount: 420,
+    description: 'Exceptional photography smartphone engineered with a custom 1-inch sensor, color tuning, 5x optical periscope zoom, and dedicated RAW shooting modes.',
+    features: ['1-Inch Camera Sensor', '50MP Triple Lens System', 'Periscope 5x Optical Zoom', '6.7" LTPO OLED 120Hz', '4K 60fps HDR Video'],
+    image: 'https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80',
+    badge: 'Photography Pick'
+  },
+  {
+    id: 'prod-016',
+    name: 'Velocity X Compact 5G',
+    category: 'Smartphones',
+    price: 489,
+    rating: 4.5,
+    reviewsCount: 265,
+    description: 'Compact powerhouse designed for effortless one-handed use with flagship performance, rich AMOLED clarity, and all-day battery endurance under $500.',
+    features: ['5.9" FHD+ 120Hz AMOLED', 'Snapdragon 8s Gen 3', '4300mAh Battery', 'IP68 Water Resistance', 'One-Handed Ergonomics'],
+    image: 'https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=800&q=80',
+    badge: 'Compact Hero'
+  },
+  {
+    id: 'prod-017',
+    name: 'Endurance Max Power 5G',
+    category: 'Smartphones',
+    price: 379,
+    rating: 4.4,
+    reviewsCount: 310,
+    description: 'Built for extreme battery longevity, delivering up to 3 full days of heavy usage, rapid 68W charging, and reverse power sharing.',
+    features: ['6500mAh Huge Battery', '6.6" FHD+ 90Hz Display', '68W Turbo Charging', 'Reverse Wired Charging', '50MP AI Main Camera'],
+    image: 'https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80',
+    badge: '3-Day Battery'
+  },
+  {
+    id: 'prod-018',
+    name: 'Aura Flip Dual-Screen Foldable',
+    category: 'Smartphones',
+    price: 799,
+    rating: 4.6,
+    reviewsCount: 195,
+    description: 'Modern clamshell foldable smartphone featuring an expansive cover screen for instant notifications, ultra-smooth folding screen, and hands-free video capture.',
+    features: ['6.7" Foldable OLED 120Hz', '3.4" Cover Display', 'Zero-Gap Teardrop Hinge', 'Flex Mode Hands-Free Video', 'Armor Aluminum Frame'],
+    image: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=800&q=80',
+    badge: 'Foldable Innovation'
+  },
+
+  // --- Laptops (7 products) ---
+  {
+    id: 'prod-002',
+    name: 'Apex Ultra 15 Pro Laptop',
+    category: 'Laptops',
+    price: 1499,
+    rating: 4.9,
+    reviewsCount: 512,
+    description: 'High-performance powerhouse engineered for developers and creators. Features M3-class 12-core silicon, 32GB RAM, and 18-hour battery endurance.',
+    features: ['15.3" Liquid Retina', '32GB Unified RAM', '1TB NVMe SSD', '18h Battery Life', 'M3 Pro Architecture'],
+    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80',
+    badge: 'Editor Choice'
+  },
+  {
+    id: 'prod-003',
+    name: 'AeroBook Air 13 Ultraportable',
+    category: 'Laptops',
+    price: 899,
+    rating: 4.7,
+    reviewsCount: 290,
+    description: 'Featherlight 2.7 lb laptop with a fanless silent design, stunning 2.5K edge-to-edge display, and rapid USB-C 65W charging.',
+    features: ['13.6" 2.5K Screen', '16GB RAM', '512GB SSD', 'Fanless Silent Design', 'All-Day Battery'],
+    image: 'https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80',
+    badge: 'Popular'
+  },
+  {
+    id: 'prod-014',
+    name: 'Titan Gaming Beast RTX 4070 Laptop',
+    category: 'Laptops',
+    price: 1799,
+    rating: 4.8,
+    reviewsCount: 430,
+    description: 'Uncompromised gaming and rendering powerhouse with NVIDIA GeForce RTX 4070, Intel Core i9 14th Gen, and 240Hz QHD display.',
+    features: ['16" QHD 240Hz G-Sync', 'GeForce RTX 4070 8GB', 'Intel Core i9-14900HX', '32GB DDR5 RAM', 'Vapor Chamber Cooling'],
+    image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80',
+    badge: 'Gaming Flagship'
+  },
+  {
+    id: 'prod-019',
+    name: 'DevStation 16 Pro Developer Laptop',
+    category: 'Laptops',
+    price: 1299,
+    rating: 4.8,
+    reviewsCount: 340,
+    description: 'The ultimate software developer and programming laptop with blazing compile speeds, tactile deep-travel keyboard, dual Thunderbolt 4 ports, and massive 32GB RAM.',
+    features: ['AMD Ryzen 9 7940HS', '32GB DDR5 5600MHz', '1TB PCIe 4.0 SSD', '16" 16:10 2.8K Matte Display', 'Dual Thunderbolt 4'],
+    image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80',
+    badge: 'Programmer Pick'
+  },
+  {
+    id: 'prod-020',
+    name: 'SwiftEdge 14 Everyday Laptop',
+    category: 'Laptops',
+    price: 649,
+    rating: 4.5,
+    reviewsCount: 215,
+    description: 'Reliable, lightweight everyday laptop with high-speed 13th Gen Intel processor, whisper-quiet thermal design, and all-day battery life under $700.',
+    features: ['Intel Core i5-13420H', '16GB LPDDR5', '512GB SSD', '14" IPS Full HD Anti-Glare', '12hr Battery Life'],
+    image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80',
+    badge: 'Under $700'
+  },
+  {
+    id: 'prod-021',
+    name: 'ZenStudio 16 OLED Creator Laptop',
+    category: 'Laptops',
+    price: 1399,
+    rating: 4.7,
+    reviewsCount: 180,
+    description: 'Precision workstation for digital artists and video editors featuring a breathtaking 3.2K 120Hz OLED panel with factory-calibrated color accuracy.',
+    features: ['16" 3.2K 120Hz OLED Display', '100% DCI-P3 Color Accuracy', 'Intel Core Ultra 7', 'NVIDIA RTX 4050 6GB', 'Calman Verified'],
+    image: 'https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80',
+    badge: 'Creator Choice'
+  },
+  {
+    id: 'prod-022',
+    name: 'EduBook 14 Student Essential',
+    category: 'Laptops',
+    price: 449,
+    rating: 4.3,
+    reviewsCount: 190,
+    description: 'Budget-conscious student laptop built tough with reinforced corners, spill-resistant keyboard, 10-hour battery, and fast USB-C charging.',
+    features: ['Intel Core i3 12th Gen', '8GB RAM', '256GB SSD', '14" 1080p Display', 'Spill-Resistant Keyboard'],
+    image: 'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80',
+    badge: 'Budget Student'
+  },
+
+  // --- Audio (7 products) ---
+  {
+    id: 'prod-004',
+    name: 'SoundWave ANC-900 Pro Headphones',
+    category: 'Audio',
+    price: 279,
+    rating: 4.8,
+    reviewsCount: 640,
+    description: 'Industry-leading Active Noise Cancellation with dual spatial audio drivers, plush memory foam earcups, and 40 hours of playtime.',
+    features: ['Hybrid Active ANC', '40mm Titanium Drivers', '40hr Battery Life', 'Multipoint Bluetooth 5.3', 'LDAC Hi-Res Audio'],
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80',
+    badge: 'Top Rated'
+  },
+  {
+    id: 'prod-005',
+    name: 'EchoPulse Mini Wireless Earbuds',
+    category: 'Audio',
+    price: 79,
+    rating: 4.4,
+    reviewsCount: 410,
+    description: 'Compact pocket-sized wireless earbuds with crystal-clear call quality, deep bass, IPX5 sweat resistance, and 28-hour total case battery.',
+    features: ['IPX5 Sweatproof', '28h Playback Case', 'Bluetooth 5.3', 'Touch Controls', 'Dual Mic ENC'],
+    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80',
+    badge: 'Budget Friendly'
+  },
+  {
+    id: 'prod-023',
+    name: 'AeroTune ANC Travel Wireless Headphones',
+    category: 'Audio',
+    price: 199,
+    rating: 4.7,
+    reviewsCount: 380,
+    description: 'Engineered for flights and long commutes with class-leading adaptive noise cancellation, 50-hour marathon battery, plush comfort cushions, and foldable travel pouch.',
+    features: ['Adaptive Noise Cancelling', 'Airplane Adapter Included', '50h Playback Battery', 'Foldable Compact Case', 'Dual Mic Voice Clarity'],
+    image: 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80',
+    badge: 'Travel Pick'
+  },
+  {
+    id: 'prod-024',
+    name: 'StudioMaster Open-Back Reference Headphones',
+    category: 'Audio',
+    price: 349,
+    rating: 4.9,
+    reviewsCount: 220,
+    description: 'Audiophile-grade open-back studio reference headphones delivering transparent acoustic staging, neutral sound response, and unmatched instrument separation.',
+    features: ['50mm Planar Magnetic Drivers', 'Open-Back Spatial Soundstage', 'Detachable Oxygen-Free Cable', 'Velour Ear Cushions', 'Hi-Res Certified'],
+    image: 'https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80',
+    badge: 'Audiophile Reference'
+  },
+  {
+    id: 'prod-025',
+    name: 'SonicFit Pro Sport Earbuds',
+    category: 'Audio',
+    price: 119,
+    rating: 4.6,
+    reviewsCount: 290,
+    description: 'Rugged wireless sport earbuds with secure ear hooks that never fall out during high-intensity runs, workouts, or rainy outdoor training.',
+    features: ['Secure Memory-Wire Earhooks', 'IP68 Waterproof & Sweatproof', '32h Total Battery', 'HearThrough Transparency', 'Physical Tactile Buttons'],
+    image: 'https://images.unsplash.com/photo-1608156639585-b3a032ef9689?auto=format&fit=crop&w=800&q=80',
+    badge: 'Workout Essential'
+  },
+  {
+    id: 'prod-026',
+    name: 'BassBoom 360 Waterproof Portable Speaker',
+    category: 'Audio',
+    price: 89,
+    rating: 4.5,
+    reviewsCount: 350,
+    description: 'Rugged 360-degree Bluetooth outdoor speaker delivering punchy dual-radiator bass, fully waterproof floating casing, and 18 hours of continuous music.',
+    features: ['360° Omnidirectional Sound', 'Deep Dual Bass Radiators', 'IP67 Waterproof & Floats', '18hr Playtime', 'PartySync Multi-Link'],
+    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80',
+    badge: 'Outdoor Pick'
+  },
+  {
+    id: 'prod-027',
+    name: 'ClearVoice USB Studio Podcast Microphone',
+    category: 'Audio',
+    price: 129,
+    rating: 4.7,
+    reviewsCount: 270,
+    description: 'Plug-and-play USB condenser microphone delivering rich broadcast-grade voice capture for streaming, podcasting, zoom meetings, and voiceovers.',
+    features: ['Cardioid Condenser Capsule', '24-bit/96kHz Resolution', 'Zero-Latency Headphone Jack', 'Integrated Pop Filter', 'Touch Tap-to-Mute'],
+    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80',
+    badge: 'Creator Audio'
+  },
+
+  // --- Wearables (7 products) ---
+  {
+    id: 'prod-006',
+    name: 'Vanguard Chrono Smartwatch Ultra',
+    category: 'Wearables',
+    price: 249,
+    rating: 4.7,
+    reviewsCount: 315,
+    description: 'Titanium bezel smartwatch with continuous ECG, blood oxygen tracking, dual-band GPS, 50m water resistance, and 7-day battery.',
+    features: ['Sapphire Glass & Titanium', 'Dual-frequency GPS', 'ECG & SpO2 Monitor', '7-Day Battery', '5ATM Waterproof'],
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80',
+    badge: 'Fitness Essential'
+  },
+  {
+    id: 'prod-007',
+    name: 'PulseBand Active Fitness Tracker',
+    category: 'Wearables',
+    price: 59,
+    rating: 4.3,
+    reviewsCount: 220,
+    description: 'Sleek, lightweight fitness band with heart rate tracking, sleep cycle analysis, 30+ sport modes, and 14-day battery life.',
+    features: ['1.47" AMOLED Display', 'Heart & Sleep Tracking', '14-Day Battery', 'Swim-proof 50M', '30+ Workout Modes'],
+    image: 'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?auto=format&fit=crop&w=800&q=80',
+    badge: 'Best Value'
+  },
+  {
+    id: 'prod-028',
+    name: 'Apex Runner GPS Multisport Watch',
+    category: 'Wearables',
+    price: 349,
+    rating: 4.8,
+    reviewsCount: 260,
+    description: 'Dedicated multisport running watch featuring dual-frequency GPS tracking, onboard offline maps, heart rate variability, and comprehensive marathon recovery metrics.',
+    features: ['Multi-Band GNSS GPS', 'VO2 Max & Training Load', 'Full Color Topo Maps', '14-Day Battery in Smart Mode', 'Titanium Case & Sapphire'],
+    image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80',
+    badge: 'Runner Choice'
+  },
+  {
+    id: 'prod-029',
+    name: 'ZenHealth Smart Ring Gen 3',
+    category: 'Wearables',
+    price: 229,
+    rating: 4.6,
+    reviewsCount: 175,
+    description: 'Discreet and lightweight titanium smart ring tracking sleep stages, readiness scores, and daily recovery without screens or distractions.',
+    features: ['Titanium Ultra-Slim Design', 'Continuous Skin Temp Sensor', 'Sleep Stage & SpO2 Tracking', '7-Day Battery Life', 'Water Resistant 100M'],
+    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80',
+    badge: 'Smart Ring'
+  },
+  {
+    id: 'prod-030',
+    name: 'Horizon Smart Audio Glasses',
+    category: 'Wearables',
+    price: 179,
+    rating: 4.4,
+    reviewsCount: 140,
+    description: 'Stylish polarized sunglasses with discreet open-ear audio directional speakers, allowing hands-free phone calls, music, and voice assistant access on the move.',
+    features: ['Open-Ear Micro Acoustic Speakers', 'Polarized UV400 Lenses', 'Dual Beamforming Microphones', 'Touch Frame Controls', '6hr Listening Time'],
+    image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800&q=80',
+    badge: 'Audio Eyewear'
+  },
+  {
+    id: 'prod-031',
+    name: 'KidSafe GPS Tracker & SOS Smartwatch',
+    category: 'Wearables',
+    price: 89,
+    rating: 4.5,
+    reviewsCount: 205,
+    description: 'Kid-friendly smartwatch with live GPS location tracking, safe geofence notifications, two-way calling, and immediate SOS alert button for complete peace of mind.',
+    features: ['Real-Time 4G LTE GPS', 'Two-Way Voice & Video Calls', 'One-Touch SOS Button', 'Geofencing Safe Zones', 'Parental Mobile App'],
+    image: 'https://images.unsplash.com/photo-1510017803434-a899398421b3?auto=format&fit=crop&w=800&q=80',
+    badge: 'Family Safety'
+  },
+  {
+    id: 'prod-032',
+    name: 'Chronos Classic Hybrid Smartwatch',
+    category: 'Wearables',
+    price: 169,
+    rating: 4.6,
+    reviewsCount: 155,
+    description: 'Timeless luxury analog watch aesthetic hiding a subtle e-ink notification screen, 30-day battery life, and essential health tracking.',
+    features: ['Mechanical Analog Hands', 'Hidden E-Ink Sub-Display', '30-Day Battery Life', 'Heart Rate & Steps', '5ATM Water Resistant'],
+    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80',
+    badge: 'Hybrid Style'
+  },
+
+  // --- Tablets (7 products) ---
+  {
     id: 'prod-010',
     name: 'TabCanvas Pro 11 Tablet',
     category: 'Tablets',
@@ -133,6 +370,68 @@ export const PRODUCTS: Product[] = [
     image: 'https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80',
     badge: 'Student Deal'
   },
+  {
+    id: 'prod-033',
+    name: 'Galaxy NoteTab 12.4 Max',
+    category: 'Tablets',
+    price: 799,
+    rating: 4.8,
+    reviewsCount: 295,
+    description: 'Massive 12.4-inch AMOLED tablet bundled with an ultra-responsive stylus pen for digital sketching, PDF annotations, and split-screen productivity.',
+    features: ['12.4" Super AMOLED 120Hz', 'Low-Latency S-Pen Included', 'Snapdragon 8 Gen 2', 'Desktop DeX Multitasking', '10,090mAh Battery'],
+    image: 'https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=800&q=80',
+    badge: 'Stylus Included'
+  },
+  {
+    id: 'prod-034',
+    name: 'MiniPad 8.3 Pocket Tablet',
+    category: 'Tablets',
+    price: 499,
+    rating: 4.7,
+    reviewsCount: 310,
+    description: 'Ultraportable pocket-sized tablet packed with flagship performance, razor-sharp display, and Apple Pencil compatibility for on-the-go reading and notes.',
+    features: ['8.3" Liquid Retina Display', 'A15 Bionic Processor', 'Touch ID Top Button', 'USB-C Fast Charging', 'Under 300g Lightweight'],
+    image: 'https://images.unsplash.com/photo-1542751110-97427bbecf20?auto=format&fit=crop&w=800&q=80',
+    badge: 'Ultraportable'
+  },
+  {
+    id: 'prod-035',
+    name: 'StudyTab 10.4 Student Edition',
+    category: 'Tablets',
+    price: 279,
+    rating: 4.5,
+    reviewsCount: 185,
+    description: 'Tailored for students and online classrooms with a vibrant 2K eye-comfort display, bundled folio stand case, and multi-user study profiles.',
+    features: ['10.4" 2K Eye-Care Screen', 'Included Folio Stand Case', 'Kid & Student Study Mode', '7040mAh Long Battery', 'Quad Dolby Atmos Speakers'],
+    image: 'https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=800&q=80',
+    badge: 'Student Pick'
+  },
+  {
+    id: 'prod-036',
+    name: 'PaperView E-Ink 10.3 Digital Notebook',
+    category: 'Tablets',
+    price: 369,
+    rating: 4.6,
+    reviewsCount: 140,
+    description: 'Distraction-free digital e-ink notepad replicating the natural feel of pen on paper, perfect for reading academic papers, drafting notes, and sketching.',
+    features: ['10.3" Carta 1200 E-Ink Screen', 'Paper-Feel Textured Surface', 'Zero Eyestrain Frontlight', 'EMR Battery-Free Pen', '3-Week Battery Life'],
+    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80',
+    badge: 'E-Ink Notebook'
+  },
+  {
+    id: 'prod-037',
+    name: 'RuggedTab Pro 10 Industrial',
+    category: 'Tablets',
+    price: 499,
+    rating: 4.4,
+    reviewsCount: 110,
+    description: 'Heavy-duty industrial tablet built to survive extreme outdoor worksites, warehouse drops, heavy rain, and direct sunlight operations.',
+    features: ['MIL-STD-810H Drop Certified', 'IP68 Dust & Water Proof', '1000 Nits Sunlight Screen', 'Glove Touch Support', 'Barcode Scanner Ready'],
+    image: 'https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=800&q=80',
+    badge: 'Rugged Work'
+  },
+
+  // --- Accessories (7 products) ---
   {
     id: 'prod-012',
     name: 'ThunderDock 12-in-1 Dual 4K Hub',
@@ -158,16 +457,64 @@ export const PRODUCTS: Product[] = [
     badge: 'Everyday Carry'
   },
   {
-    id: 'prod-014',
-    name: 'Titan Gaming Beast RTX 4070 Laptop',
-    category: 'Laptops',
-    price: 1799,
+    id: 'prod-038',
+    name: 'MagStand 3-in-1 Wireless Charging Tree',
+    category: 'Accessories',
+    price: 69,
+    rating: 4.7,
+    reviewsCount: 390,
+    description: 'Sleek aluminum magnetic charging station that simultaneously charges your phone, smartwatch, and wireless earbuds with one clean cable.',
+    features: ['15W MagSafe Fast Charging', 'Charges Phone, Watch & Earbuds', 'Weighted Aluminum Base', 'Floating Magnetic Design', 'LED Nightstand Friendly'],
+    image: 'https://images.unsplash.com/photo-1622445262464-84b1456045b6?auto=format&fit=crop&w=800&q=80',
+    badge: 'Desk Essential'
+  },
+  {
+    id: 'prod-039',
+    name: 'ErgoClick Wireless Ergonomic Vertical Mouse',
+    category: 'Accessories',
+    price: 49,
+    rating: 4.6,
+    reviewsCount: 310,
+    description: 'Scientifically designed vertical ergonomic mouse that eliminates wrist strain and carpal tunnel discomfort during long work hours.',
+    features: ['57° Natural Handshake Angle', 'Silent Click Switches', 'Tri-Mode Bluetooth & 2.4GHz', '4000 DPI Optical Sensor', 'Rechargeable USB-C'],
+    image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80',
+    badge: 'Ergonomic Choice'
+  },
+  {
+    id: 'prod-040',
+    name: 'MechPro 75 Wireless Mechanical Keyboard',
+    category: 'Accessories',
+    price: 99,
     rating: 4.8,
-    reviewsCount: 430,
-    description: 'Uncompromised gaming and rendering powerhouse with NVIDIA GeForce RTX 4070, Intel Core i9 14th Gen, and 240Hz QHD display.',
-    features: ['16" QHD 240Hz G-Sync', 'GeForce RTX 4070 8GB', 'Intel Core i9-14900HX', '32GB DDR5 RAM', 'Vapor Chamber Cooling'],
-    image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80',
-    badge: 'Gaming Flagship'
+    reviewsCount: 450,
+    description: 'Premium compact wireless mechanical keyboard offering satisfying creamy acoustics, hot-swappable switches, and seamless multi-device switching.',
+    features: ['75% Compact Layout', 'Hot-Swappable Switches', 'PBT Double-Shot Keycaps', 'RGB Backlight with 22 Modes', 'Bluetooth 5.1 & 2.4G'],
+    image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80',
+    badge: 'Typist Favorite'
+  },
+  {
+    id: 'prod-041',
+    name: 'PowerVault 25,000mAh 100W Laptop Power Bank',
+    category: 'Accessories',
+    price: 79,
+    rating: 4.7,
+    reviewsCount: 280,
+    description: 'High-capacity airline-safe portable power bank capable of fast-charging laptops, tablets, and phones anywhere without needing a wall outlet.',
+    features: ['100W Power Delivery Output', '25000mAh Huge Capacity', 'Smart Digital OLED Display', 'Flight Approved (92.5Wh)', 'Triple Port Charging'],
+    image: 'https://images.unsplash.com/photo-1609592426507-062e1c95191f?auto=format&fit=crop&w=800&q=80',
+    badge: 'Power Heavyweight'
+  },
+  {
+    id: 'prod-042',
+    name: 'Orbit Precision Touch Stylus Pen',
+    category: 'Accessories',
+    price: 45,
+    rating: 4.5,
+    reviewsCount: 195,
+    description: 'Universal high-precision active stylus pen featuring pixel-perfect accuracy, zero lag, and tilt shading for drawing and note-taking.',
+    features: ['Palm Rejection Technology', 'Tilt Sensitivity Shading', 'Magnetic Wireless Attaching', 'Type-C Fast 15min Charge', 'Replaceable Fine Tips'],
+    image: 'https://images.unsplash.com/photo-1585336261026-7f57c5a043ea?auto=format&fit=crop&w=800&q=80',
+    badge: 'Digital Art Pen'
   }
 ];
 
