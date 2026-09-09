@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { PRODUCTS } from '../data/products.ts';
-import type { AIRecommendation, RecommendationResponse, Product } from '../types/index.ts';
+import { PRODUCTS } from '../data/products';
+import type { AIRecommendation, RecommendationResponse, Product } from '../types';
 
 export interface RecommendInput {
   query: string;

@@ -1,7 +1,7 @@
 import react from '@vitejs/plugin-react';
 import dotenv from 'dotenv';
 import { defineConfig, type Plugin } from 'vite';
-import { getRecommendations } from './src/server/recommendService.ts';
+import { getRecommendations } from './src/server/recommendService';
 
 // Load environment variables from .env file
 dotenv.config();

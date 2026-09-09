@@ -1,5 +1,4 @@
-import type { IncomingMessage, ServerResponse } from 'http';
-import { getRecommendations } from '../src/server/recommendService.ts';
+import { getRecommendations } from '../src/server/recommendService';
 
 // Vercel Serverless Function Handler
 export default async function handler(req: any, res: any) {
