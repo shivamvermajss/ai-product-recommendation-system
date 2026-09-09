@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { PRODUCTS } from '../data/products';
-import type { AIRecommendation, RecommendationResponse, Product } from '../types';
+import { PRODUCTS } from '../data/products.js';
+import type { AIRecommendation, RecommendationResponse, Product } from '../types/index.js';
 
 export interface RecommendInput {
   query: string;
@@ -18,7 +18,7 @@ function fallbackKeywordMatcher(query: string, categoryFilter?: string): AIRecom
 
   // Extract budget constraints e.g., "under $500", "below 300", "< 600"
   let maxBudget: number | null = null;
-  const budgetMatch = lowerQuery.match(/(?:under|below|less than|budget of|max|\<)\s*\$?(\d+)/i) || lowerQuery.match(/\$(\d+)/i);
+  const budgetMatch = lowerQuery.match(/(?:under|below|less than|budget of|max|<)\s*\$?(\d+)/i) || lowerQuery.match(/\$(\d+)/i);
   if (budgetMatch && budgetMatch[1]) {
     maxBudget = parseInt(budgetMatch[1], 10);
   }

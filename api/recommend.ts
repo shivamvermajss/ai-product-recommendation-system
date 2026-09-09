@@ -1,4 +1,4 @@
-import { getRecommendations } from '../src/server/recommendService';
+import { getRecommendations } from '../src/server/recommendService.js';
 
 // Vercel Serverless Function Handler
 export default async function handler(req: any, res: any) {
