@@ -58,30 +58,33 @@ export const RecommendationBar: React.FC<RecommendationBarProps> = ({
 
       <div className="search-box-card">
         <form onSubmit={handleSubmit} className="search-form">
-          <div className="search-icon-wrapper">
-            <Search size={20} />
+          <div className="search-input-group">
+            <div className="search-icon-wrapper">
+              <Search size={20} />
+            </div>
+
+            <input
+              type="text"
+              className="search-input"
+              placeholder="e.g. 'I want a phone under $500' or 'Lightweight laptop with 16GB RAM'..."
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              disabled={isLoading}
+              aria-label="Natural language product query"
+            />
+
+            {inputValue && !isLoading && (
+              <button
+                type="button"
+                className="clear-search-btn"
+                onClick={handleClear}
+                title="Clear input"
+                aria-label="Clear search input"
+              >
+                <X size={18} />
+              </button>
+            )}
           </div>
-
-          <input
-            type="text"
-            className="search-input"
-            placeholder="e.g. 'I want a phone under $500' or 'Lightweight laptop with 16GB RAM'..."
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-            disabled={isLoading}
-            aria-label="Natural language product query"
-          />
-
-          {inputValue && !isLoading && (
-            <button
-              type="button"
-              className="clear-search-btn"
-              onClick={handleClear}
-              title="Clear input"
-            >
-              <X size={18} />
-            </button>
-          )}
 
           <button
             type="submit"

@@ -47,7 +47,7 @@ export const Filters: React.FC<FiltersProps> = ({
           <option value="price-desc">Price: High to Low</option>
           <option value="rating-desc">Highest Rated</option>
         </select>
-        <span style={{ fontSize: '0.8rem', color: 'var(--text-subtle)', marginLeft: '0.5rem' }}>
+        <span className="sort-count-badge">
           ({totalCount} items)
         </span>
       </div>

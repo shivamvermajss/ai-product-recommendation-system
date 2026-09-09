@@ -5,11 +5,11 @@ export const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="footer-inner">
-        <div>
-          <strong style={{ color: 'var(--text-main)' }}>SmartPick AI</strong> — Built for the Indeed AI Engineer Assessment.
+        <div className="footer-text">
+          <strong>SmartPick AI</strong> — Built for the Indeed AI Engineer Assessment.
         </div>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+        <div className="footer-pills-list">
           <span className="footer-pill">
             <Code2 size={13} />
             React + TypeScript + Vite

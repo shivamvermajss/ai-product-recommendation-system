@@ -32,7 +32,7 @@ export const RecommendationBanner: React.FC<RecommendationBannerProps> = ({
               Matching preference: <span>"{query}"</span>
             </p>
             {message && (
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.78rem', color: '#94a3b8', marginTop: '0.35rem' }}>
+              <div className="rec-banner-msg">
                 <Info size={13} />
                 <span>{message}</span>
               </div>
