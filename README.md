@@ -7,7 +7,7 @@
 ![Deployment](https://img.shields.io/badge/Deploy-Vercel%20Serverless-black?style=flat-square)
 
 ---
-
+**Live Demo:** https://ai-product-recommendation-system-ashy.vercel.app/
 ## 🌟 Key Features
 
 1. **Natural Language Product Discovery**:
